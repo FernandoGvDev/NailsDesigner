@@ -126,7 +126,6 @@ aside {
 
 
 .galeria {
-    column-count: 3;
     column-gap: 0;
 }
 
@@ -142,6 +141,7 @@ aside {
     scale: .9;
     opacity: .7;
 }
+
 
 
 #contato {
