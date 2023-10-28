@@ -126,6 +126,7 @@ aside {
 
 
 .galeria {
+    column-count: 3;
     column-gap: 0;
 }
 
@@ -232,6 +233,11 @@ footer {
     #sobre img {
         display: none;
     }
+
+    .galeria {
+        column-count:1;
+        column-gap: 0;
+    }
     
     
 }
@@ -274,6 +280,12 @@ footer {
         top: 90%;
         right: 15%;
     }
+
+    .galeria {
+        column-count:2;
+        column-gap: 0;
+    }
+    
 
 }
 
