@@ -185,15 +185,11 @@ footer {
 
     header .container h1 {
         font-size: 30px;
-        font-family: 'Abel', sans-serif;
-        border: 1px solid #000;
-        padding: 0;
-        padding-right: 3px;
     }
 
     aside {
         top: 75%;
-        right: 5%;
+       
     }
     
     #pagina-principal img {
