@@ -1,9 +1,14 @@
-*{
+* {
     font-family: 'Abel', sans-serif;
 }
-header{
+
+body {
+  overflow-x: hidden;
+}
+
+header {
     background-color: #FFF;
-    
+
 }
 
 header .container h1 {
@@ -14,11 +19,11 @@ header .container h1 {
     padding-right: 3px;
 }
 
-header .container h1 span{
+header .container h1 span {
     background-color: #000;
     color: #FFF;
     padding: 2px 8px;
-    
+
 }
 
 #cabecalho .nav .nav-link {
@@ -28,82 +33,99 @@ header .container h1 span{
     font-family: 'Abel', sans-serif;
 }
 
-#cabecalho .nav .nav-link:hover{
+#cabecalho .nav .nav-link:hover {
     color: #857f7f;
 }
 
 aside {
-    position: fixed; /* Torna o elemento fixo na tela */
-    top: 50%; /* Centraliza verticalmente */
-    right: 20px; /* Alinha à direita */
-    transform: translateY(-50%); /* Ajusta a posição verticalmente */
-  }
+    position: fixed;
+    /* Torna o elemento fixo na tela */
+    top: 50%;
+    /* Centraliza verticalmente */
+    right: 5%;
+    /* Alinha à direita */
+    transform: translateY(-50%);
+    /* Ajusta a posição verticalmente */
+    z-index: 10;
+}
 
 .redes_sociais li {
     list-style: none;
 }
 
-.redes_sociais li a{
-    color: #000;
-}
+
 
 #pagina-principal {
     position: relative;
     margin-top: 2%;
-     
+
 }
 
-#pagina-principal  img {
+#pagina-principal img {
     margin: 32px 0;
-    width: 50%;
-    margin-left: 8%;
+    width:60%;
+    margin-left: 0%;
     height: 650px;
     border: 10px solid #FFF;
     transition: opacity 0.5s ease-in-out;
     object-fit: cover;
     position: relative;
     z-index: 1;
-     
+
 }
 
 
 #inicio img:not(:hover) {
-    opacity: 1;}
-    
+    opacity: 1;
+}
 
- .destaque1{
-        background-color: #1f1d1d;
-        display: flex;
-        width: 640px;
-        height: 720px;
-        border: 10px solid #fff;
-        position: absolute; /* Use position: absolute para posicionar a div */
-        top: 0.1%; /* Centralize verticalmente */
-        left: 45%; /* Centralize horizontalmente */
-        z-index: -1;
-        
-    }
 
-.destaque2{
+.destaque1 {
+    background-color: #1f1d1d;
+    display: flex;
+    width: 640px;
+    height: 720px;
+    border: 10px solid #fff;
+    position: absolute;
+    /* Use position: absolute para posicionar a div */
+    top: 0.1%;
+    /* Centralize verticalmente */
+    left: 45%;
+    /* Centralize horizontalmente */
+    z-index: -1;
+
+}
+
+.destaque2 {
     background-color: #1f1d1d;
     display: flex;
     width: 350px;
     height: 350px;
     padding: 8px 6px;
-    border: 10px solid #fff;
+    border: 5px solid #fff;
     color: #faf6f6;
-    position: absolute; /* Use position: absolute para posicionar a div */
-    top: 25%; /* Centralize verticalmente */
-    left: 50%; /* Centralize horizontalmente */
+    position: absolute;
+    /* Use position: absolute para posicionar a div */
+    top: 15%;
+    /* Centralize verticalmente */
+    left: 50%;
+    /* Centralize horizontalmente */
     z-index: 2;
 }
 
-.destaque2 h3{
-    font-size: 45px;
+.destaque2 h3 {
+    font-size: 50px;
+}
+
+.col-md-8 img {
+    max-width: 100%;
+    height: 600px;
+    object-fit: cover;
+
 }
 
 
-.galeria{
+.galeria {
     column-count: 3;
     column-gap: 0;
 }
@@ -122,32 +144,158 @@ aside {
 }
 
 
-#contato .container{
+#contato {
     background-color: #1f1d1d;
     color: #FFF;
 }
 
 .col-md-5 form input,
-.col-md-5 form textarea
-{
+.col-md-5 form textarea {
     background-color: #1f1d1d;
     color: #FFF;
 }
 
 .col-md-5 form input::placeholder,
-.col-md-5 form textarea::placeholder{
+.col-md-5 form textarea::placeholder {
     color: #FFF;
 }
 
-.col-md-5 form textarea{
+.col-md-5 form textarea {
     resize: none;
     height: 150px;
 }
 
-form button{
-    background-color:#1f1d1d;
+form button {
+    background-color: #1f1d1d;
     color: #fff;
     padding: 3px 10px;
     border: 1px solid #fff;
 }
 
+
+footer {
+    background-color: #000;
+    color: #fff;
+}
+
+
+
+@media screen and (max-width:600px) {
+
+    header .container h1 {
+        font-size: 30px;
+        font-family: 'Abel', sans-serif;
+        border: 1px solid #000;
+        padding: 0;
+        padding-right: 3px;
+    }
+
+    aside {
+        top: 90%;
+        right: 10%;
+    }
+    
+    #pagina-principal img {
+        width: auto;
+        margin-top: 10%;
+        height: 400px;
+        object-fit: cover;
+        position: relative;
+        z-index: 1;
+       
+        
+    }
+    .destaque1 {
+       display: none;
+       
+    }
+
+    .destaque2 {
+            width: 160px;
+            height: 190px;
+            position: absolute;
+            padding: 2px 3px;
+            /* Use position: absolute para posicionar a div */
+            top: 2%;
+            /* Centralize verticalmente */
+            left: 50%;
+            /* Centralize horizontalmente */
+            
+            border: 3px solid #fff;       
+            
+    }
+
+    .destaque2 h3 {
+        font-size: 25px;
+    }
+
+    #sobre img {
+        display: none;
+    }
+    
+
+}
+
+
+
+@media screen and (min-width:601px) and (max-width:767px){
+    #sobre img {
+        display: none;
+    }
+
+    .destaque1 {
+        width: 350px;
+        height: 720px;
+        border: 3px solid #fff;
+       
+    }
+
+    .destaque2 {
+        width: 290px;
+        height: 260px;
+        padding: 4px 3px;
+        top: 8%;
+        border: 3px solid #fff;
+
+    }
+    
+    .destaque2 h3 {
+        font-size: 40px;
+    }
+
+    #pagina-principal img {
+        border: 3px solid #fff;
+        width: auto;
+       
+        
+    }
+
+      aside {
+        top: 90%;
+        right: 15%;
+    }
+
+}
+
+@media screen and (min-width:767px) and (max-width:991px){
+
+    .destaque1 {
+        width: 400px;
+        height: 720px;
+        border: 3px solid #fff;
+       
+    }
+
+    .destaque2 {
+        width: 300px;   
+        border: 3px solid #fff;    
+
+    }
+
+    #pagina-principal img {
+        border: 3px solid #fff;
+        width: auto;
+       
+        
+    }
+}
