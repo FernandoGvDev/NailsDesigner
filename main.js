@@ -13,3 +13,5 @@ if (horas >= 6 && horas < 12){
 const whatsappLink = document.getElementById('whatsapp-link');
 whatsappLink.href = `https://api.whatsapp.com/send?phone=5511948379838&text=${encodeURIComponent(message)}`;
 
+const agendarHorario = document.getElementById('agendar-horario');
+agendarHorario.href = `https://api.whatsapp.com/send?phone=5511948379838&text=${encodeURIComponent(message)}`;
