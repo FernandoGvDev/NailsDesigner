@@ -22,6 +22,6 @@ Este projeto é uma homenagem à habilidade e talento da minha colega como nails
 
 Você pode ver como ficou esse projeto no site logo abaixo. 
 
-- [Website](https://vercel.com/andbalbino/andressa-camargo-nails-designer) - Agende uma sessão para experimentar a arte das unhas personalizadas.
+- [Nails Designer](https://vercel.com/andbalbino/andressa-camargo-nails-designer) - Agende uma sessão para experimentar a arte das unhas personalizadas.
   
 
