@@ -16,6 +16,8 @@ Este é o repositório do projeto que criei para minha talentosa amiga Andressa 
 
 - JavaScript para adicionar interatividade e funcionalidades dinâmicas.
 
+- Bootstrap para dar responsividade ao site e adicionar alguns elementos mais elegantes.
+
 Este projeto é uma homenagem à habilidade e talento da minha colega como nails designer. É uma vitrine digital que reflete sua paixão por criar designs de unhas únicos e personalizados.
 
 ### Projeto:
