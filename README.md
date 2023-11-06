@@ -24,4 +24,4 @@ Você pode ver como ficou esse projeto no site logo abaixo.
 
 - [Nails Designer](https://vercel.com/andbalbino/andressa-camargo-nails-designer) - Agende uma sessão para experimentar a arte das unhas personalizadas.
   
-
+<img src="https://github.com/AndBalbino/Estudos-ads/assets/113153237/06433ec9-e7f5-4458-92d6-a9bb3aecb86b" />
