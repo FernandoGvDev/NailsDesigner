@@ -87,11 +87,8 @@ aside {
     height: 720px;
     border: 10px solid #fff;
     position: absolute;
-    /* Use position: absolute para posicionar a div */
     top: 0.1%;
-    /* Centralize verticalmente */
     left: 45%;
-    /* Centralize horizontalmente */
     z-index: -1;
 
 }
@@ -105,11 +102,8 @@ aside {
     border: 5px solid #fff;
     color: #faf6f6;
     position: absolute;
-    /* Use position: absolute para posicionar a div */
     top: 15%;
-    /* Centralize verticalmente */
     left: 50%;
-    /* Centralize horizontalmente */
     z-index: 2;
 }
 
