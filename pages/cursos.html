@@ -56,34 +56,41 @@
         .dourado {
             color: goldenrod;
         }
+
+        .text-pink {
+            color: #d63384 !important;
+        }
+
+        .nav-link:hover {
+            color: goldenrod !important;
+        }
     </style>
 </head>
 
 <body>
-    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho" style="margin-bottom: 30px; background-color: #fff;">
+    <header class="navbar navbar-expand-lg bg-white shadow-sm sticky-top py-3">
         <div class="container">
-            <a href="#" class="navbar-brand m-0 p-0 d-flex align-items-center">
-                <img src="../imagens/nova.png" alt="Logo Lara Designer" class="img-fluid" style="height: 80px">
+            <!-- Logo -->
+            <a class="navbar-brand d-flex align-items-center" href="/">
+                <img src="/imagens/logo.png" alt="Logo Lara Designer" style="height: 80px;" class="me-2" />
             </a>
 
-
-            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
-                <span class="navbar-toggler-icon "></span>
+            <!-- Botão de menu (mobile) -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuSite">
+                <span class="navbar-toggler-icon"></span>
             </button>
 
-            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
-                <ul class="nav nav-pills d-block d-md-flex">
-                    <li class="nav-item">
-                        <a href="../index.html" class="nav-link text-uppercase fs-5">Página principal</a>
+            <!-- Itens do menu -->
+            <nav class="collapse navbar-collapse justify-content-end" id="menuSite">
+                <ul class="navbar-nav text-uppercase fw-bold">
+                    <li class="nav-item mx-2">
+                        <a class="nav-link text-pink" href="../index.html">Página Inicial</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="#sobre" class="nav-link text-uppercase fs-5">Sobre</a>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link text-pink" href="galeria.html">Galeria</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="#trabalhos" class="nav-link text-uppercase fs-5">Trabalhos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#contato" class="nav-link text-uppercase fs-5">Contato</a>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link text-pink" href="/pages/cursos.html">Cursos</a>
                     </li>
                 </ul>
             </nav>
@@ -156,19 +163,27 @@
                 <!-- Plano VIP -->
                 <div class="col-md-6">
                     <div class="p-4 card-plano h-100">
-                        <h3 class="text-center text-uppercase" style="color:#d63384;">Curso VIP</h3>
+                        <h3 class="text-center text-uppercase" style="color:#d63384;">Curso VIP <br>Método B.N.D no Molde</h3>
                         <ul class="mt-3 mb-4">
                             <li>Método B.N.D</li>
                             <li>Fibra de vidro e mold</li>
                             <li>Anatomia das unhas naturais</li>
                             <li>Preparação das unhas</li>
                             <li>Formatos</li>
+                            <li>Decorações</li>
+                            <li>Controle de produtos</li>
+                            <li>Lixamento estratégico</li>
+                            <li>Tipos de géis, para que <br>servem e tempo<br>de secagem de cada um</li>
+                            <li>Preparação de fibra e corte <br>facilitado para cada formato</li>
+                            <li>Escolha e tipos de molds</li>
+                            <li>Certificados, apostilha, kit brinde</li>
+                            <li>Instrutoria após curso via WhatsApp</li>
                         </ul>
                         <p class="text-center fs-5 text-decoration-line-through text-muted">R$ 1200,00</p>
                         <p class="text-center fs-3 fw-bold" style="color: goldenrod;">R$ 800,00</p>
                         <div class="text-center">
                             <a class="btn btn-plano"
-                                href="https://api.whatsapp.com/send?phone=5511948379838&text=Olá!%20Tenho%20interesse%20no%20Curso%20VIP%20do%20Studio%20Lara%20💅">
+                                href="https://api.whatsapp.com/send?phone=556282323982&text=Olá!%20Tenho%20interesse%20no%20Curso%20VIP%20do%20Studio%20Lara%20💅">
                                 Quero o Curso VIP
                             </a>
                         </div>
@@ -178,13 +193,18 @@
                 <!-- Plano em turma -->
                 <div class="col-md-6">
                     <div class="p-4 card-plano h-100">
-                        <h3 class="text-center text-uppercase" style="color:#d63384;">Curso em Turma</h3>
+                        <h3 class="text-center text-uppercase" style="color:#d63384;">Curso em Turma <br>Metodo B.N.D no Molde</h3>
                         <ul class="mt-3 mb-4">
-                            <li>Turmas pequenas</li>
-                            <li>Gel, acrílico e decoração</li>
-                            <li>Material incluso + Certificado</li>
-                            <li>Suporte via WhatsApp</li>
-                            <li>Ambiente colaborativo</li>
+                            <li>Anatomia das unhas</li>
+                            <li>Preparação das unhas</li>
+                            <li>Formatos</li>
+                            <li>Decoração</li>
+                            <li>Controle de produto</li>
+                            <li>Lixamento estrátegico</li>
+                            <li>Tipos de géis, para que <br>servem e tempo<br>de secagem de cada um</li>
+                            <li>Escolha e aplicação <br>facilitada do molde</li>
+                            <li>Certificados, apostilha, kit brinde</li>
+                            <li>Instrutoria após curso via WhatsApp</li>
                         </ul>
                         <p class="text-center fs-5 text-decoration-line-through text-muted">R$ 1200,00</p>
                         <p class="text-center fs-3 fw-bold" style="color: goldenrod;">R$ 750,00</p>
@@ -199,13 +219,19 @@
                 <!-- Plano em turma -->
                 <div class="col-md-6">
                     <div class="p-4 card-plano h-100">
-                        <h3 class="text-center text-uppercase" style="color:#d63384;">Curso em Turma</h3>
+                        <h3 class="text-center text-uppercase" style="color:#d63384;">Curso em Turma <br>Metodo B.N.D e <br>Fibra de Vidro</h3>
                         <ul class="mt-3 mb-4">
-                            <li>Turmas pequenas</li>
-                            <li>Gel, acrílico e decoração</li>
-                            <li>Material incluso + Certificado</li>
-                            <li>Suporte via WhatsApp</li>
-                            <li>Ambiente colaborativo</li>
+                            <li>Anatomia das unhas</li>
+                            <li>Preparação das unhas</li>
+                            <li>Formatos</li>
+                            <li>Decoração</li>
+                            <li>Controle de produto</li>
+                            <li>Lixamento estrátegico</li>
+                            <li>Tipos de géis, para que <br>servem e tempo<br>de secagem de cada um</li>
+                            <li>Preparação de fibra e <br>corte facilitada para <br>cada formato</li>
+                            <li>Escolha e aplicação <br>facilitada do molde</li>
+                            <li>Certificados, apostilha, kit brinde</li>
+                            <li>Instrutoria após curso via WhatsApp</li>
                         </ul>
                         <p class="text-center fs-5 text-decoration-line-through text-muted">R$ 1200,00</p>
                         <p class="text-center fs-3 fw-bold" style="color: goldenrod;">R$ 750,00</p>
@@ -217,9 +243,51 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="col-md-6">
+                    <div class="p-4 card-plano h-100">
+                        <h3 class="text-center text-uppercase" style="color:#d63384;">Curso em Turma <br>Metodo B.N.D e <br>Fibra de Vidro e molde</h3>
+                        <ul class="mt-3 mb-4">
+                            <li>Anatomia das unhas</li>
+                            <li>Preparação das unhas</li>
+                            <li>Formatos</li>
+                            <li>Decoração</li>
+                            <li>Controle de produto</li>
+                            <li>Lixamento estrátegico</li>
+                            <li>Tipos de géis, para que <br>servem e tempo<br>de secagem de cada um</li>
+                            <li>Preparação de fibra e <br>corte facilitada para <br>cada formato</li>
+                            <li>Escolha e aplicação <br>facilitada do molde</li>
+                            <li>Certificados, apostilha, kit brinde</li>
+                            <li>Instrutoria após curso via WhatsApp</li>
+                        </ul>
+                        <p class="text-center fs-5 text-decoration-line-through text-muted">R$ 1200,00</p>
+                        <p class="text-center fs-3 fw-bold" style="color: goldenrod;">R$ 750,00</p>
+                        <div class="text-center">
+                            <a class="btn btn-plano"
+                                href="https://api.whatsapp.com/send?phone=5511948379838&text=Olá!%20Tenho%20interesse%20em%20um%20Curso%20em%20Turma%20do%20Studio%20Lara%20💅">
+                                Quero o Curso em Turma
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
+
+    <!-- Chamada final para contato -->
+<section class="py-5" style="background-color: #fff0f6;">
+  <div class="container text-center">
+    <h2 class="text-uppercase mb-4 fw-bold" style="color: #d63384;">Ficou com dúvidas ou quer garantir sua vaga?</h2>
+    <p class="fs-5 text-muted">Clique no botão abaixo e fale diretamente conosco pelo WhatsApp. Estamos prontas para te ajudar a se tornar uma nail designer de sucesso!</p>
+    <a href="https://api.whatsapp.com/send?phone=5511948379838&text=Olá!%20Quero%20saber%20mais%20sobre%20os%20cursos%20do%20Studio%20Lara%20💅"
+       class="btn btn-lg px-5 py-3 mt-3"
+       style="background-color: #d63384; color: white; border: 2px solid goldenrod; border-radius: 50px; font-size: 1.25rem;">
+      <i class="bi bi-whatsapp me-2"></i> Falar no WhatsApp
+    </a>
+  </div>
+</section>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
