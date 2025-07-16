@@ -172,6 +172,14 @@ footer {
     background-color: #000;
     color: #fff;
 }
+.text-pink {
+  color: #d63384 !important;
+}
+
+.nav-link:hover {
+  color: goldenrod !important;
+}
+
 
 
 

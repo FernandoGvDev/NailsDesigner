@@ -20,58 +20,59 @@
 
 <body>
 
-    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+    <header class="navbar navbar-expand-lg bg-white shadow-sm sticky-top py-3">
         <div class="container">
-            <h1 class="navbar m-0 text-uppercase"><span>Nails</span> Designer</h1>
+            <!-- Logo -->
+            <a class="navbar-brand d-flex align-items-center" href="/">
+                <img src="/imagens/logo.png" alt="Logo Lara Designer" style="height: 80px;" class="me-2" />
+            </a>
 
-            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
-                <span class="navbar-toggler-icon "></span> 
+            <!-- Botão de menu (mobile) -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuSite">
+                <span class="navbar-toggler-icon"></span>
             </button>
 
-            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
-                <ul class="nav nav-pills d-block d-md-flex">
-                    <li class="nav-item">
-                        <a href="#pagina-principal" class="nav-link text-uppercase fs-5">Página principal</a>
+            <!-- Itens do menu -->
+            <nav class="collapse navbar-collapse justify-content-end" id="menuSite">
+                <ul class="navbar-nav text-uppercase fw-bold">
+                    <li class="nav-item mx-2">
+                        <a class="nav-link text-pink" href="#pagina-principal">Página Inicial</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="#sobre" class="nav-link text-uppercase fs-5">Sobre</a>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link text-pink" href="#trabalhos">Trabalhos</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="#trabalhos" class="nav-link text-uppercase fs-5">Trabalhos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#contato" class="nav-link text-uppercase fs-5">Contato</a>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link text-pink" href="/pages/cursos.html">Cursos</a>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
 
+
     <aside>
         <ul class="redes_sociais">
             <li>
-                <a href="https://instagram.com/andressacr_nails?igshid=YTQwZjQ0NmI0OA%3D%3D&utm_source=qr"
-                    target="_blank" class="fs-3 pb-5 text-danger">
+                <a href="https://www.instagram.com/larastudionailss/" target="_blank" class="fs-3 pb-5 text-danger">
                     <i class="bi bi-instagram"></i>
                 </a>
             </li>
             <li>
-                <a id="whatsapp-link"
-                    href="https://api.whatsapp.com/send?phone=5511948379838&text=Ol%C3%A1,%20gostaria%20de%20agendar%20um%20hor%C3%A1rio"
-                    target="_blank" class="fs-3 pb-5 text-success">
+                <a id="whatsapp-link" href="https://api.whatsapp.com/send?phone=556282323982" target="_blank"
+                    class="fs-3 pb-5 text-success">
                     <i class="bi bi-whatsapp"></i>
                 </a>
             </li>
-            
+
         </ul>
     </aside>
 
     <div class="container" data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
-        
-      <section id="pagina-principal">
+
+        <section id="pagina-principal">
             <div class="destaque1">
             </div>
-            <img src="./imagens/WhatsApp Image 2023-09-18 at 17.36.04 (1).jpeg" alt="Mão de uma cliente mostrando suas unhas feitas em gel">
+            <img src="imagens/unhaBanner.jpg" alt="Mão de uma cliente mostrando suas unhas feitas em gel">
             <div class="destaque2">
                 <h3 class="pt-2 ps-2 text-uppercase">Deixe suas unhas contarem sua história de estilo</h3>
             </div>
@@ -79,24 +80,24 @@
 
 
 
-        
-            <section id="sobre" class="mt-4">
-                <div class="container">
+
+        <section id="sobre" class="mt-4">
+            <div class="container">
                 <div class="row pt-5">
                     <div class="col-md-8 ">
                         <img src="./imagens/nova.png" alt="">
                     </div>
                     <div class="col-md-3">
                         <h2 class="pb-3 text-uppercase text-center">Sobre</h2>
-                        <p class="fs-5">Bem-vinda ao nosso espaço de beleza e empoderamento! Suas unhas com gel são mais
+                        <p class="fs-5">Bem-vinda ao nosso espaço de beleza e empoderamento! Suas unhas -*-são mais
                             do que apenas uma manicure, são a sua expressão única. Acreditamos que a confiança e a
                             beleza andam de mãos dadas. Deixe suas unhas serem o símbolo do seu poder e estilo. Descubra
                             a magia das unhas que refletem você</p>
                     </div>
                 </div>
             </div>
-            </section>
-        
+        </section>
+
 
 
 
@@ -106,15 +107,112 @@
                     <h2 class="text-center pt-4 pb-4 text-uppercase">Trabalhos</h2>
                 </div>
                 <div class="galeria">
-                    <img src="./imagens/WhatsApp Image 2023-09-18 at 17.36.03.jpeg" alt="Mão de uma cliente mostrando suas unhas feitas em gel">
-                    <img src="./imagens/03.jpeg" alt="Mão de uma cliente mostrando suas unhas feitas em gel">
-                    <img src="./imagens/principal.jpeg" alt="Mão de uma cliente mostrando suas unhas feitas em gel">
-                    <img src="./imagens/WhatsApp Image 2023-10-06 at 21.18.45 (1).jpeg" alt="Mão de uma cliente mostrando suas unhas feitas em gel">
-                    <img src="./imagens/WhatsApp Image 2023-09-18 at 17.36.06.jpeg" alt="Mão de uma cliente mostrando suas unhas feitas em gel">
-                    <img src="./imagens/WhatsApp Image 2023-10-06 at 21.18.45 (2).jpeg" alt="Mão de uma cliente mostrando suas unhas feitas em gel">
+                    <img src="/imagens/unha1.jpeg"
+                        alt="Mão de uma cliente mostrando suas unhas feitas em gel">
+                    <img src="/imagens/unha11.jpeg" alt="Mão de uma cliente mostrando suas unhas feitas em gel">
+                    <img src="/imagens/unha2.jpeg" alt="Mão de uma cliente mostrando suas unhas feitas em gel">
+                    <img src="/imagens/unha4.jpeg"
+                        alt="Mão de uma cliente mostrando suas unhas feitas em gel">
+                    <img src="/imagens/unha5.jpeg"
+                        alt="Mão de uma cliente mostrando suas unhas feitas em gel">
+                    <img src="/imagens/unha6.jpeg"
+                        alt="Mão de uma cliente mostrando suas unhas feitas em gel">
                 </div>
             </section>
         </div>
+
+        <section id="feedbacks" class="mt-5 mb-4">
+            <div class="container bg-white rounded-4 shadow p-4">
+                <h2 class="text-center text-uppercase mb-4" style="color: #d63384;">O que as alunas dizem 💬</h2>
+
+                <div class="row justify-content-center">
+                    <!-- Feedback 1 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="bg-light rounded-3 border border-pink p-3 shadow-sm text-center">
+                            <img src="./imagens/feedbackCurso/feedCurso.jpeg" alt="Depoimento de aluna 1"
+                                class="img-fluid rounded-3 mb-3">
+                            <p class="fw-bold" style="color: #d63384;">"Você explica super bem, de forma fácil de
+                                entender... amei demais o curso!"</p>
+                        </div>
+                    </div>
+
+                    <!-- Feedback 2 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="bg-light rounded-3 border border-pink p-3 shadow-sm text-center">
+                            <img src="./imagens/feedbackCurso/feedCurso2.jpeg" alt="Depoimento de aluna 2"
+                                class="img-fluid rounded-3 mb-3">
+                            <p class="fw-bold" style="color: #d63384;">"Me senti muito mais capacitada pra atuar na
+                                área. Curso maravilhoso e paciente!"</p>
+                        </div>
+                    </div>
+
+                    <!-- Feedback 3 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="bg-light rounded-3 border border-pink p-3 shadow-sm text-center">
+                            <img src="/imagens/feedbackCurso/feedCurso3.jpeg" alt="Depoimento de aluna 3"
+                                class="img-fluid rounded-3 mb-3">
+                            <p class="fw-bold" style="color: #d63384;">"Amei muito o curso, foi incrível! Já até comprei
+                                os materiais pra começar."</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="cursos" class="mt-5 mb-5">
+            <div class="container bg-white rounded-4 shadow p-4">
+                <h2 class="text-center text-uppercase mb-4" style="color: #d63384;">Cursos</h2>
+
+                <!-- Curso VIP -->
+                <div class="row mb-5">
+                    <div class="col-12 text-center bg-light p-4 rounded-3 border border-warning">
+                        <h3 class="text-uppercase mb-2" style="color: #d63384;">Curso VIP</h3>
+                        <p class="fs-5 text-muted">Atendimento individual com foco total em você! Aprenda unhas de gel,
+                            acrílico e fibra num dia exclusivo, com material incluso.</p>
+                        <p class="fs-5 fw-bold" style="color: goldenrod;">De R$ 1200,00 por <span
+                                style="color: #d63384;">R$ 800,00</span></p>
+                    </div>
+                </div>
+
+                <!-- Cursos em turma -->
+                <div class="row text-center">
+                    <div class="col-md-4 mb-4">
+                        <div class="bg-light rounded-3 p-3 border border-pink h-100 shadow-sm">
+                            <h4 class="text-uppercase" style="color: #d63384;">Turma 1</h4>
+                            <p class="text-muted">Curso intensivo para iniciantes em unhas de gel.</p>
+                            <p class="fw-bold" style="color: goldenrod;">De R$ 1200,00 por <span
+                                    style="color: #d63384;">R$ 750,00</span></p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="bg-light rounded-3 p-3 border border-pink h-100 shadow-sm">
+                            <h4 class="text-uppercase" style="color: #d63384;">Turma 2</h4>
+                            <p class="text-muted">Unhas em acrílico + Design avançado com técnicas atuais.</p>
+                            <p class="fw-bold" style="color: goldenrod;">De R$ 1200,00 por <span
+                                    style="color: #d63384;">R$ 750,00</span></p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="bg-light rounded-3 p-3 border border-pink h-100 shadow-sm">
+                            <h4 class="text-uppercase" style="color: #d63384;">Turma 3</h4>
+                            <p class="text-muted">Curso completo de Nail Art e decoração profissional.</p>
+                            <p class="fw-bold" style="color: goldenrod;">De R$ 1200,00 por <span
+                                    style="color: #d63384;">R$ 750,00</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Botão Saiba Mais -->
+                <div class="text-center mt-4">
+                    <a href="/pages/cursos.html" class="btn btn-lg px-5 py-2 rounded-pill"
+                        style="background-color: #d63384; color: white; border: 2px solid goldenrod;">
+                        Saiba mais
+                    </a>
+                </div>
+            </div>
+        </section>
+
 
 
 
@@ -130,61 +228,44 @@
                 </div>
             
         </section> -->
-
-
-        <div class="container mt-5 mb-5">
-            <section id="contato" class="pb-4">
-                <div class="row">
-                    <h2 class="p-4 text-uppercase">Contato</h2>
-                </div>
-                <div class="row ps-3 pe-3">
-                    <div class="col-md-4">
-                        <address>
-                            <h3 class="text-uppercase">Endereço</h3>
-                            <p>Avenida das orquídeas - Vargem Grande </p>
-
-                            <h3 class="text-uppercase">Contate-nos</h3>
-                            <a id="agendar-horario" href="https://api.whatsapp.com/send?phone=5511948379838&text=Ol%C3%A1,%20gostaria%20de%20agendar%20um%20hor%C3%A1rio"
-                                class=" text-white fs-5 text-decoration-none" target="_blank">
-                                <i class="pe-2 bi bi-whatsapp text-success"></i> Vamos agendar um horário?
-                            </a>
-                            
-                            <h3 class="text-uppercase mt-4">Siga-nos</h3>
-                            <a href="https://instagram.com/andressacr_nails?igshid=YTQwZjQ0NmI0OA%3D%3D&utm_source=qr"
-                                class="text-white fs-5 text-decoration-none " target="_blank">
-                                <i class="pe-2 bi bi-instagram text-danger"></i> @andressacr_nails
-                            </a>
-                        </address>
-                    </div>
-                    <div class="col-md-3">
-                        <h3 class="text-uppercase mt-1">Horário</h3>
-                        <p>Seg - Sex <br>10:00 - 19:00</p>
-                        <p>Sab - Dom <br>11:00 - 16:00</p>
-                    </div>
-                    <div class="col-md-5">
-
-                        <form>
-                            <div class="mb-3">
-                                <input placeholder="Seu nome" type="text" id="nome" class="form-control" required>
-                            </div>
-                            <div class="mb-3">
-                                <input placeholder="Seu e-mail" type="email" id="email" class="form-control" required>
-                            </div>
-                            <div class="mb-3">
-                                <textarea placeholder="Digite aqui sua mensagem..." id="msg"
-                                    class="form-control colorfw-bold" required></textarea>
-                            </div>
-                            <button type="submit">Enviar</button>
-                        </form>
-                    </div>
-                </div>
-            </section>
-        </div>
-    </div>
         <footer>
-            <h4 class="text-center pt-5 pb-5 mb-0 fs-5">&copy;2024 Nails Designer - Todos os direitos reservados</h4>
-        </footer>
-    
+            <div class="container mt-5 mb-5">
+                <section id="contato" class="pb-4">
+                    <div class="row">
+                        <h2 class="p-4 text-uppercase">Contato</h2>
+                    </div>
+                    <div class="row ps-3 pe-3">
+                        <div class="col-md-4">
+                            <address>
+                                <h3 class="text-uppercase">Endereço</h3>
+                                <p>Exemplo - RS </p>
+
+                                <h3 class="text-uppercase">Contate-nos</h3>
+                                <a id="agendar-horario" href="https://api.whatsapp.com/send?phone=556282323982"
+                                    class=" text-white fs-5 text-decoration-none" target="_blank">
+                                    <i class="pe-2 bi bi-whatsapp text-success"></i> Vamos agendar um horário?
+                                </a>
+
+                                <h3 class="text-uppercase mt-4">Siga-nos</h3>
+                                <a href="https://instagram.com/andressacr_nails?igshid=YTQwZjQ0NmI0OA%3D%3D&utm_source=qr"
+                                    class="text-white fs-5 text-decoration-none " target="_blank">
+                                    <i class="pe-2 bi bi-instagram text-danger"></i> @Insta
+                                </a>
+                            </address>
+                        </div>
+                        <div class="col-md-3">
+                            <h3 class="text-uppercase mt-1">Horário</h3>
+                            <p>Seg - Sex <br>07:30 - 21:00</p>
+                            <p>Sab <br>08:00 - 15:00</p>
+                        </div>
+                        <h4 class="text-center pt-5 pb-5 mb-0 fs-5">&copy;2025 Lara Designer - Todos os direitos
+                            reservados</h4>
+                    </div>
+                </section>
+            </div>
+    </div>
+    </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="./main.js"></script>
 </body>
