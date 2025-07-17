@@ -61,7 +61,7 @@ aside {
 
 
 .destaque1 {
-    background-color: #1f1d1d;
+    background-color: #d63384;
     display: flex;
     width: 640px;
     height: 720px;
@@ -74,7 +74,7 @@ aside {
 }
 
 .destaque2 {
-    background-color: #1f1d1d;
+    background-color: #d63384;
     display: flex;
     width: 350px;
     height: 350px;
@@ -120,7 +120,7 @@ aside {
 
 
 #contato {
-    background-color: #1f1d1d;
+    background-color: #610633;
     color: #FFF;
 }
 
@@ -149,6 +149,7 @@ form button {
 
 
 footer {
+    margin-top: 30px;
     background-color: #000;
     color: #fff;
 }
